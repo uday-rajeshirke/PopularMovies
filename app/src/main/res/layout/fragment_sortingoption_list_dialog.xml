@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/list_item_spacing_half"
+    android:paddingTop="@dimen/list_item_spacing_half">
+
+    <TextView
+        android:text="@string/sort_order"
+        android:textStyle="bold"
+        android:padding="@dimen/list_item_spacing_half"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_sorting_option_popular"
+        android:text="@string/sorting_option_popular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/list_item_spacing"/>
+
+    <CheckedTextView
+        android:id="@+id/ctv_sorting_option_top_rated"
+        android:text="@string/sorting_option_top_rated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/list_item_spacing"/>
+
+</LinearLayout>
